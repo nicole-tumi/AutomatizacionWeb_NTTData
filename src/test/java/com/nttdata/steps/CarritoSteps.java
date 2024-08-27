@@ -1,8 +1,6 @@
 package com.nttdata.steps;
 
 import com.nttdata.page.CarritoPage;
-import com.nttdata.page.ClothesPage;
-import com.nttdata.page.ProductPage;
 import org.openqa.selenium.WebDriver;
 
 public class CarritoSteps {

@@ -1,19 +1,10 @@
 package com.nttdata.steps;
 
 import com.nttdata.page.InventoryPage;
-import com.nttdata.page.LoginPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-import java.util.List;
 
 import static com.nttdata.core.DriverManager.getDriver;
-
-// Aqui se interactua con la interfaz tanto para enviar datos como para obtener
 
 public class InventorySteps {
 
@@ -61,8 +52,5 @@ public class InventorySteps {
             e.printStackTrace();
         }
     }
-
-
-
 
 }

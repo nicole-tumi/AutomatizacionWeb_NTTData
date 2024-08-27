@@ -1,6 +1,5 @@
 package com.nttdata.stepsdefinitions;
 
-import com.nttdata.page.MenPage;
 import com.nttdata.steps.*;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
@@ -8,11 +7,6 @@ import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.sql.Driver;
-import java.time.Duration;
 
 import static com.nttdata.core.DriverManager.getDriver;
 import static com.nttdata.core.DriverManager.screenShot;

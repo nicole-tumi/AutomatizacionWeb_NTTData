@@ -1,6 +1,5 @@
 package com.nttdata.steps;
 
-import com.nttdata.page.MenPage;
 import com.nttdata.page.ProductPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -117,7 +116,5 @@ public class ProductSteps {
             e.printStackTrace();
         }
     }
-
-
 
 }

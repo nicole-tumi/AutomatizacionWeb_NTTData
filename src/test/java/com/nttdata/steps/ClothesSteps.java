@@ -1,7 +1,6 @@
 package com.nttdata.steps;
 
 import com.nttdata.page.ClothesPage;
-import com.nttdata.page.InventoryPage;
 import org.openqa.selenium.WebDriver;
 
 public class ClothesSteps {

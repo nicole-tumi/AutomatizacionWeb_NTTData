@@ -1,14 +1,8 @@
 package com.nttdata.steps;
 
-import com.nttdata.page.ClothesPage;
-import com.nttdata.page.LoginPage;
 import com.nttdata.page.MenPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 import static com.nttdata.core.DriverManager.getDriver;
 
